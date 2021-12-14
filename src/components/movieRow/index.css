@@ -24,3 +24,26 @@
 .movieRow--item img:hover {
     transform: scale(1); /* aumenta para escala original da imagem. */
 }
+.moveRow--left, .moveRow--right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.moveRow--left {
+    left: 0;
+}
+.moveRow--right {
+    right: 0;
+}
+.movieRow:hover .moveRow--left, .movieRow:hover .moveRow--right {
+    opacity: 1;
+}

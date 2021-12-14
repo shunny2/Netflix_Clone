@@ -80,5 +80,7 @@ export default {
                     break;
             }
         }
+
+        return info;
     }
 }
