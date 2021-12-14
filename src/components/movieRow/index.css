@@ -9,7 +9,7 @@
     padding-left: 30px;
 }
 .movieRow--list {
-    width: auto;
+    transition: all ease 0.5s;
 }
 .movieRow--item {
     display: inline-block;
@@ -46,4 +46,12 @@
 }
 .movieRow:hover .moveRow--left, .movieRow:hover .moveRow--right {
     opacity: 1;
+}
+
+/* Configuração para mobile */
+@media (max-width:760px) { /* Se a tela for menor que 760px */
+    .movieRow--left,
+    .moveRow--right {
+        opacity: 1;
+    }
 }
