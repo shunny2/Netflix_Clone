@@ -1,25 +1,43 @@
 <p align="center">
-<a href="#about-application">About Application</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#technologies">Technologies</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#how-to-run">How to Run</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#project-status">Project Status</a>
+  <a href="#about-application">About Application</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-run">How to Run</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project-status">Project Status</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 </br>
 
 ![netflix](https://user-images.githubusercontent.com/72872854/194650067-7a270668-2780-40ec-8ce5-95b0ba2f3b88.png)
 
+<p align="center">
+  <a href="https://img.shields.io/github/stars/shunny2/netflix-clone?style=social"><img src="https://img.shields.io/github/stars/shunny2/netflix-clone?style=social" alt="Repo Stars"/></a>
+  <a href="https://img.shields.io/github/forks/shunny2/netflix-clone?style=social"><img src="https://img.shields.io/github/forks/shunny2/netflix-clone?style=social" alt="Repo Forks"/></a>
+  <a href="https://img.shields.io/github/license/shunny2/netflix-clone"><img src="https://img.shields.io/github/license/shunny2/netflix-clone" alt="License"/></a>
+</p>
+
 ## About Application
 
-The project aims to create a clone of the Netflix interface.
+The project aims to clone the [Netflix](https://www.netflix.com/) interface.
+[TMDB](https://developer.themoviedb.org/docs) API was used to bring up-to-date movie and series data from [Netflix](https://www.netflix.com/).
 
-A production version is available at: [https://netflix-br.vercel.app](https://netflix-br.vercel.app/)
+A production version is available at [https://netflix-br.vercel.app](https://netflix-br.vercel.app/)
 
 ## Technologies
-  - [ReactJS](https://reactjs.org/)
+
+<table>
+  <thead>
+  </thead>
+  <tbody>
+    <td>
+      <a href="https://reactjs.org/" title="React"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React logo image." /></a>
+    </td>
+  </tbody>
+</table>
 
 ## How to Run
 
@@ -40,6 +58,10 @@ npm start
 ## Project Status
 
 > Status: Completed.
+
+## License
+
+This project is under an [MIT](https://opensource.org/licenses/MIT) license.
 
 <hr></hr>
 
