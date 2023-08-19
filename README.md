@@ -22,10 +22,9 @@
 
 ## About Application
 
-The project aims to clone the [Netflix](https://www.netflix.com/) interface.
-[TMDB](https://developer.themoviedb.org/docs) API was used to bring up-to-date movie and series data from [Netflix](https://www.netflix.com/).
+"<b>Clone Netflix</b>" is a project aimed at replicating the [Netflix](https://www.netflix.com/) interface for educational purposes. The [TMDB](https://developer.themoviedb.org/docs) API was utilized, as it provides real-time access to Netflix's movie and series data.
 
-A production version is available at [https://netflix-br.vercel.app](https://netflix-br.vercel.app/)
+A finalized version can be accessed at [https://netflix-br.vercel.app](https://netflix-br.vercel.app/).
 
 ## Technologies
 
